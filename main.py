@@ -40,7 +40,7 @@ class CamApp(App):
            ret, frame = vid.read()
            if(ret==True):  
              # Display the resulting frame
-             cv2.imshow('frame', frame)  
+             #cv2.imshow('frame', frame)  
  
              if cv2.waitKey(25) & 0xFF == ord('q'):
                break
